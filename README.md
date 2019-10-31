@@ -151,7 +151,7 @@ Lets curl and see what we get
 ```
 curl -X POST \
   http://192.168.1.1:8890/predict \
-  -H 'Host: 10.74.87.53:8890' \
+  -H 'Host: http://192.168.1.1:8890' \
   -H 'content-type: multipart/form-data' \
   -F 'jsondata={"model":["/home/lambdaadmin/Gits/EnsembleML/savedEnsembleModel.RDS"],"test":[{"Sepal.Length":5.1,"Sepal.Width":3.5,"Petal.Length":1.4,"Petal.Width":0.2,"Species":"setosa"}]}'
 ```
