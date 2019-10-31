@@ -32,7 +32,7 @@ createAPI  = function(host, port){
       # predict function
       predict_api = function(model, test){
         model = readModel(model)
-        test_Df = as.data.frame(test)
+        test_Df = jsonlite::fromJSON(test)
         return(predictEnsemble(model, test_Df))
       }
 
