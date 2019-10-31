@@ -1,0 +1,13 @@
+Package: EnsembleML
+Type: Package
+Title: An ensemble modeling package and deployment 
+Version: 0.1.1
+Author: Nagdev Amruthnath 
+Maintainer: Nagdev Amruthnath <nagdev.amruthnath92@gmail.com>
+Description: This package is a unified package for performing feature extractions for signal data, descriptive statistics, multiple model building, ensemble model building and deploying models as API's. 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: psych, caret, doParallel, stats, parallel, Metrics, devtools, dplyr, jug, infuser
+Remotes: Bart6114/infuser, Bart6114/jug
+RoxygenNote: 6.1.1
