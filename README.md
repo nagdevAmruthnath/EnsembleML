@@ -153,7 +153,7 @@ curl -X POST \
   http://192.168.1.1:8890/predict \
   -H 'Host: http://192.168.1.1:8890' \
   -H 'content-type: multipart/form-data' \
-  -F 'jsondata={"model":["/home/lambdaadmin/Gits/EnsembleML/savedEnsembleModel.RDS"],"test":[{"Sepal.Length":5.1,"Sepal.Width":3.5,"Petal.Length":1.4,"Petal.Width":0.2,"Species":"setosa"}]}'
+  -F 'jsondata={"model":["/home/savedEnsembleModel.RDS"],"test":[{"Sepal.Length":5.1,"Sepal.Width":3.5,"Petal.Length":1.4,"Petal.Width":0.2,"Species":"setosa"}]}'
 ```
 
 ## Issues and Tracking
